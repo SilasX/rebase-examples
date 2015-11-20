@@ -16,6 +16,11 @@ def fac_iterative(n):
         out *= x
     return out
 
+def zip_iterative(f, list1, list2):
+    listout = []
+    for i, x in enumerate(list1):
+        if i < len(list2):
+            listout.append(f(x, list2[i]))
 
 if __name__ == "__main__":
     print "Hello World!"

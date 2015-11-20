@@ -1,5 +1,5 @@
 def sumof2(x, y):
-    return x + y
+    return sum(x, y)
 
 def fac_recursive(n):
     """You should use this one because it's more elegant."
